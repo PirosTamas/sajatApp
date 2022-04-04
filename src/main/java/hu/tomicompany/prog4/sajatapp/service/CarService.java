@@ -10,7 +10,7 @@ public class CarService implements Service<Car> {
 
     @Override
     public void pay(Car vehicle) {
-        log.info("Paid for car: " + vehicle);
+        log.info("Paid for car hopp: " + vehicle);
 
     }
 }
