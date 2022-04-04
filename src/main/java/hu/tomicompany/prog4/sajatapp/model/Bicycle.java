@@ -12,4 +12,11 @@ public class Bicycle extends Vehicle{
         super(id, maxSpeed, brand);
         this.bell = bell;
     }
+
+    @Override
+    public String toString() {
+        return "Bicycle{" + " ID:" + this.getId() + " Max Speed:" + this.getMaxSpeed() + " Brand:"+ this.getBrand() +
+                " Bell:" + bell +
+                '}';
+    }
 }

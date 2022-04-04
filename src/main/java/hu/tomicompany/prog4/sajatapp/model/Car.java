@@ -20,4 +20,11 @@ public class Car extends Vehicle{
             throw new NoTransmissionException("Nincs ilyen váltó barom!");
         }
     }
+
+    @Override
+    public String toString() {
+        return "Car{" + " ID:" + this.getId() + " Max Speed:" + this.getMaxSpeed() + " Brand:"+ this.getBrand() +
+                " Transmission='" + transmission + '\'' +
+                '}';
+    }
 }
