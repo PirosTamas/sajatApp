@@ -8,8 +8,16 @@
         <servlet-name>HelloWorldServlet</servlet-name>
         <servlet-class>hu.tomicompany.prog4.sajatapp.servlet.HelloWorldServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>HomeServlet</servlet-name>
+        <servlet-class>hu.tomicompany.prog4.sajatapp.servlet.HomeServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>HelloWorldServlet</servlet-name>
         <url-pattern>/helloWorld</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HomeServlet</servlet-name>
+        <url-pattern>/</url-pattern>
     </servlet-mapping>
 </web-app>
